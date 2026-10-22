@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Produire des témoins de compatibilité entre schémas JSON restreints', 'en': 'Produce compatibility witnesses between restricted JSON schemas', 'es': 'Producir testigos de compatibilidad entre esquemas JSON restringidos'}

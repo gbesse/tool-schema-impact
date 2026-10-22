@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tool-schema-impact"
+version = "0.1.0a1"
+description = "FR: Produire des témoins de compatibilité entre schémas JSON restreints | EN: Produce compatibility witnesses between restricted JSON schemas | ES: Producir testigos de compatibilidad entre esquemas JSON restringidos"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+tool-schema-impact = "tool_schema_impact.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["tool_schema_impact*"]

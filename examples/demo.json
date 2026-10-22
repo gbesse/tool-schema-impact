@@ -1,0 +1,30 @@
+{
+  "old": {
+    "type": "object",
+    "properties": {
+      "quantity": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 10
+      }
+    },
+    "required": [
+      "quantity"
+    ],
+    "additionalProperties": false
+  },
+  "new": {
+    "type": "object",
+    "properties": {
+      "quantity": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 5
+      }
+    },
+    "required": [
+      "quantity"
+    ],
+    "additionalProperties": false
+  }
+}
